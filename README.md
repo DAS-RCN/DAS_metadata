@@ -6,6 +6,7 @@ v1.0.0
 [2022-08-24] Under construction in private repository. 
 
 GitHub documentation checklist
+
 About	: An about section is generally several sentences long, appears at the top of a README.md file, and describes the purpose of the repository
 
 Citation :	The permanent URL and/or DOI of the reporting format
