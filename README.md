@@ -17,7 +17,7 @@ Other documents to get started:
 Instructions document: Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE.
 Sample metadata template: Download spreadsheet template with standard fields to register samples for IGSNs.
 
-## Updates 
+## Version history 
 
 • v1.0.0: This is the first release of the DAS Metadata Reporting Format
 
