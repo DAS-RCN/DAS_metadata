@@ -1,4 +1,4 @@
-# DAS_metadata
+# CHECKLIST
 Tools for standardizing Distributed Acoustic Sensing (DAS) metadata
 
 v1.0.0 
