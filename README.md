@@ -2,16 +2,20 @@
 
 todo: Provide the name of your reporting format in the heading above, and we suggest you add a short (3 or 4 sentence) overview of the motivation for creating the data reporting format.  
 
+Your README.md file should contain a short description of your repository. This can be placed either directly under the title of your README file as we wrote the few sentences above or you can write a description under an "About" heading. This is also a good place to link out to additional supporting documentation on other non-github websites.
 
----
-
-## About the DAS metadata reporting format
-
-todo: Your README.md file should contain a short description of your repository. This can be placed either directly under the title of your README file as we wrote the few sentences above or you can write a description under an "About" heading like we have included here. This is also a good place to link out to additional supporting documentation on other non-github websites.
+-- 
 
 ## Getting started  
 
-todo: The getting started section of your repository is like a table of contents that lists out a concise version of the most important documents and templates a reader can expect to find in your repository. You do not need to link to every  document in your GitHub repository, but you should link to the most essential documents, so that visitors can locate and access them quickly.
+Example: 
+ESS-DIVE's IGSN metadata reference guide:
+IGSN sample metadata guide, modified (from the SESAR IGSN guide - see link and citation below) for interdiscipinary Environmental System Science (ESS) samples.
+
+Other documents to get started:
+
+Instructions document: Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE.
+Sample metadata template: Download spreadsheet template with standard fields to register samples for IGSNs.
 
 ## Updates 
 
