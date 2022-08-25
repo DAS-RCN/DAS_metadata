@@ -22,8 +22,7 @@ todo: Provide details in this section that lets readers know how to suggest modi
 
 ## Copyright information  
 
-todo: There are many options for choosing a usage license. GitHub has put together a helpful guide on repository licensing: https://choosealicense.com/ If you eventually upload your repository as a complete data package to the ESS-DIVE data repository, the data package will have either a CC BY 4.0 or a CC BY 1.0 and you should indicate that license here.  
-exampletext: This repository content is licensed for use under the CC BY 4.0 license
+The DAS-RCN Reporting Format for DAS metadata is licensed under the Creative Commons Attribution 4.0 International (CCby4).
 
 ## Funding and acknowledgements  
 
