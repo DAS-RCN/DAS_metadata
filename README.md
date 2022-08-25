@@ -13,9 +13,9 @@ todo: Your README.md file should contain a short description of your repository.
 
 todo: The getting started section of your repository is like a table of contents that lists out a concise version of the most important documents and templates a reader can expect to find in your repository. You do not need to link to every  document in your GitHub repository, but you should link to the most essential documents, so that visitors can locate and access them quickly.
 
-## Updates in v1.0.0
+## Updates 
 
-• This is the first release of the DAS Metadata Reporting Format
+• v1.0.0: This is the first release of the DAS Metadata Reporting Format
 
 ## How to contribute  
 
