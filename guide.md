@@ -10,7 +10,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 ## Sample Metadata Content - Link to More Details
 *Required fields are marked with an asterisk, and indicated in detailed tables below.
 
-**[Overview Metadata](#overview)**:      
+**[Overview Metadata](#overview-metadata)**:      
 [Location*](#location) |
 [Deployment type*](#deployment-type) |
 [Network*](#network) |
@@ -23,13 +23,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Collection mode](#collection-mode) |
 [Comment](#comment) |
 
-**[Cable and Fiber Metadata](#cable-and-fiber)**: 
+**[Cable and Fiber Metadata](#cable-and-fiber-metadata)**: 
 
-**[Interrogator Metadata](#interrogator)**: 
+**[Interrogator Metadata](#interrogator-metadata)**: 
 
-**[Acquisition Metadata](#acquisition)**: 
+**[Acquisition Metadata](#acquisition-metadata)**: 
 
-**[Channel Metadata](#channel)**: 
+**[Channel Metadata](#channel-metadata)**: 
 
 ---  
 ## Overview Metadata
