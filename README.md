@@ -18,7 +18,7 @@ Your README.md file should contain a short description of your repository. This 
 
 ## How to contribute  
 
-There are many ways to contribute. iReport bugs, request features, and suggest new attirbutes via [our issue page](https://github.com/vhlai-seis/DAS_metadata/blob/main/contribute.md)using the templates provided.   
+Want to make a change to the reporting format? Submit a new issue [here](https://github.com/vhlai-seis/DAS_metadata/blob/main/contribute.md) and use one of several templates that we provide to: suggest a new term, modify a term, propose changes to documentation within this repository, request features or report bugs.  
 
 ## Copyright information  
 
