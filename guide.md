@@ -99,8 +99,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| -- 
 |**Examples**             |2018-03-24T00:00:00|
 
-### Purpose of location
-|AttributeID              |<div align="right">purpose_of_location <img width=200/> <code>Optional</code> </div>| 
+### Purpose of collection
+|AttributeID              |<div align="right">purpose_of_collection <img width=200/> <code>Optional</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Brief explanation of purpose|
 |**Type**                 |String|
