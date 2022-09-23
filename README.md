@@ -2,7 +2,9 @@
 
 Distributed Acoustic Sensing (DAS) is a transformative technology and its applications in geosciences and engineering are numerous and growing. Compared to conventional seismic data, there are outstanding challenges to make DAS data product accessible, discoverable by human and machines, and reusable. Current standard formats used in archiving seismic data cannot accommodate all the acquisition parameters needed for proper characterization and the large volumes overwhelm commonly used formats and archival systems. The level of maturity how metadata associated with DAS data is described also varies across industries, researchers, and vendors. 
 
-Here, DAS-RCN Data Management Working Group proposes a starting point for a common DAS metadata standard for archival purposes and to guide data collection at experiments. The intent is that this metadata data standard should be independent of the specific implementation and the emphasis is on content. The proposed metadata is divided into five major blocks: overview, cable and fiber, interrogator, acquisition, and channel.
+Here, DAS-RCN Data Management Working Group proposes a starting point for a common DAS metadata standard for archival purposes and to guide data collection at experiments. The intent is that this metadata data standard should be independent of the specific implementation and the emphasis is on content. 
+
+The proposed metadata is divided into five major blocks: overview, cable and fiber, interrogator, acquisition, and channel.
 
 [insert flow chart here]
 
