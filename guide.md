@@ -283,3 +283,12 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Unit**                 |degrees|
 |**Additional Instructions**| -- 
 |**Examples**             |20|
+
+### Fiber start location
+|AttributeID              |<div align="right">fiber_start_location <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |start location wrt the IU (if different from cable)|
+|**Type**                 |Float|
+|**Unit**                 |km|
+|**Additional Instructions**| -- 
+|**Examples**             |5|
