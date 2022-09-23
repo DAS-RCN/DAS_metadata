@@ -214,10 +214,19 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Examples**             |0.01|
 
 ### Cable coordinates
-|AttributeID              |<div align="right">cable_coordinates <img width=200/> <code>Required</code> </div>| 
+|AttributeID              |<div align="right">cable_coordinates <img width=200/> <code>Optional</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |List of cable coordinates. List should include a descriptor that indicates how positions were determined and a version number. |
 |**Type**                 |Dictionary|
 |**Unit**                 |WGS84 or meters|
 |**Additional Instructions**| -- 
-|**Examples**             ||
+|**Examples**             | |
+
+### Cable connector coordinates
+|AttributeID              |<div align="right">cable_connector_coordinates <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |List of coordinates of connectors (if any) along a cable. List should include descriptors for how positions were determined. |
+|**Type**                 |Dictionary|
+|**Unit**                 |WGS84 or meters|
+|**Additional Instructions**| -- 
+|**Examples**             | |
