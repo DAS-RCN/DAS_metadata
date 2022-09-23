@@ -77,7 +77,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Definition**           |Point of Contact(s)|
 |**Type**                 |String|
 |**Additional Instructions**| -- 
-|**Examples**             |2|
+|**Examples**             |P.I. Doe|
 
 ### Start datetime
 |AttributeID              |<div align="right">start_datetime <img width=200/> <code>Required</code> </div>| 
