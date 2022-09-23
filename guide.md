@@ -25,6 +25,9 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 
 **[Cable and Fiber Metadata](#cable-and-fiber-metadata)**:      
 [Cable fiber ID*](#cable-fiber-ID) |
+[Cable start time](#cable-start-time) |
+[Cable end time](#cable-end-time) |
+[Cable characteristics](#cable-characteristics) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -148,3 +151,43 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Default**              |1|
 |**Additional Instructions**| -- 
 |**Examples**             |1A|
+
+### Cable start time
+|AttributeID              |<div align="right">cable_start_time <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Installation time of the cable|
+|**Type**                 |String|
+|**Format**               |ISO formatted date-time|
+|**Unit**                 |UTC|
+|**Additional Instructions**| -- 
+|**Examples**             |2012-12-14T00:00:00|
+
+### Cable end time
+|AttributeID              |<div align="right">cable_end_time <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Removal of the cable|
+|**Type**                 |String|
+|**Format**               |ISO formatted date-time|
+|**Unit**                 |UTC|
+|**Additional Instructions**| -- 
+|**Examples**             |22013-02-24T00:00:00|
+
+### Cable characteristics
+|AttributeID              |<div align="right">cable_characteristics <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Describes how the fiber is encased in the cable|
+|**Type**                 |String|
+|**Format**               |Controlled Vocabulary|
+|**Options**              |[buffered, armored, gel-filled]|
+|**Additional Instructions**| -- 
+|**Examples**             |gel-filled|
+
+### Cable environment
+|AttributeID              |<div align="right">cable_characteristics <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |describes the installation environment|
+|**Type**                 |String|
+|**Format**               |Controlled Vocabulary|
+|**Options**              |[[Conduit, trench, outside borehole casing, wireline]|
+|**Additional Instructions**| -- 
+|**Examples**             |outside borehole casing|
