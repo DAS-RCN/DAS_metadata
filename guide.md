@@ -21,7 +21,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [End datetime*](#end-datetime) |
 [Purpose of collection](#purpose-of-collection) |
 [Collection mode](#collection-mode) |
-[Comments](#comments) |
+[Comment](#comment) |
 
 ---  
 ## Overview
