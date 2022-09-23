@@ -23,8 +23,8 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Collection mode](#collection-mode) |
 [Comment](#comment) |
 
-**[Cable and Fiber Metadata](#cable-and-fiber-metadata)**: 
-[Cable fiber ID](#cable-fiber-ID) |
+**[Cable and Fiber Metadata](#cable-and-fiber-metadata)**:      
+[Cable fiber IDn*](#cable fiber ID) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
