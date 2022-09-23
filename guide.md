@@ -31,6 +31,11 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Cable model](#cable-model) |
 [Cable diameter](#cable-diameter) |
 [Cable coordinates*](#cable-coordinates) |
+[Cable connector coordinates](#cable-connector-coordinates) |
+[Fiber mode](#fiber-mode) |
+[Fiber refraction index](#fiber-refraction-index) |
+[Attenuation](#attenuation) |
+[Fiber geometry](#fiber-geometry) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -55,7 +60,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Describes the permenancy of the deployment|
 |**Type**                 |String|
-|**Format**               |Controlled Vocabulary|
+|**Format**               |Controlled vocabulary|
 |**Options**              |[permanent , temporary]|
 |**Additional Instructions**| -- 
 |**Examples**             |permanent|
@@ -128,7 +133,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Are data collected continuously or over several discrete time windows|
 |**Type**                 |String|
-|**Format**               |Controlled Vocabulary|
+|**Format**               |Controlled vocabulary|
 |**Options**              |[continuous, segmented]|
 |**Additional Instructions**| -- 
 |**Examples**             |continuous|
@@ -180,7 +185,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Describes how the fiber is encased in the cable|
 |**Type**                 |String|
-|**Format**               |Controlled Vocabulary|
+|**Format**               |Controlled vocabulary|
 |**Options**              |[buffered, armored, gel-filled]|
 |**Additional Instructions**| -- 
 |**Examples**             |gel-filled|
@@ -190,7 +195,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |describes the installation environment|
 |**Type**                 |String|
-|**Format**               |Controlled Vocabulary|
+|**Format**               |Controlled vocabulary|
 |**Options**              |[Conduit, trench, outside borehole casing, wireline]|
 |**Additional Instructions**| -- 
 |**Examples**             |outside borehole casing|
@@ -230,3 +235,50 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Unit**                 |WGS84 or meters|
 |**Additional Instructions**| -- 
 |**Examples**             | |
+
+### Fiber mode
+|AttributeID              |<div align="right">fiber_mode <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Fiber mode|
+|**Type**                 |String|
+|**Format**               |Controlled vocabulary|
+|**Options**              |[single, multimode]|
+|**Additional Instructions**| -- 
+|**Examples**             |multimode|
+
+### Fiber refraction index
+|AttributeID              |<div align="right">fiber_refraction_index <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Fiber refraction index|
+|**Type**                 |Float|
+|**Unit**                 |None|
+|**Additional Instructions**| -- 
+|**Examples**             |0.2|
+
+### Attenuation
+|AttributeID              |<div align="right">attenuation <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Signal loss along fiber|
+|**Type**                 |Float|
+|**Unit**                 |dB/km|
+|**Additional Instructions**| -- 
+|**Examples**             | |
+
+### Fiber geometry
+|AttributeID              |<div align="right">fiber_geometry <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Geometry of cable|
+|**Type**                 |String|
+|**Format**               |Controlled vocabulary|
+|**Options**              |[linear , helical]|
+|**Additional Instructions**| -- 
+|**Examples**             |linear|
+
+### Winding angle
+|AttributeID              |<div align="right">fiber_refraction_index <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Winding angle with respect to cable axis|
+|**Type**                 |Float|
+|**Unit**                 |degrees|
+|**Additional Instructions**| -- 
+|**Examples**             |20|
