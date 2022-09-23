@@ -13,6 +13,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 **[Overview](#overview)**:      
 [Location*](#location) |
 [Deployment type*](#deployment-type) |
+[Network*](#network) |
 
 
 
@@ -38,7 +39,14 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| -- 
 |**Examples**             |permanent|
 
-
+### Network
+|AttributeID              |<div align="right">network <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |A network name that is managed by an organization accepted by the international community. The network name should uniquely identify the the source of the data|
+|**Type**                 |String|
+|**Format**               |Alpha Numeric|
+|**Additional Instructions**| -- 
+|**Examples**             |PB|
 
 
 
