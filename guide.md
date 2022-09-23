@@ -30,6 +30,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Cable characteristics](#cable-characteristics) |
 [Cable model](#cable-model) |
 [Cable diameter](#cable-diameter) |
+[Cable coordinates*](#cable-coordinates) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
