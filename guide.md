@@ -37,6 +37,10 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Attenuation](#attenuation) |
 [Fiber geometry](#fiber-geometry) |
 [Winding angle](#winding-angle) |
+[Fiber start location](#fiber-start-location) |
+[Fiber end location](#fiber-end-location) |
+[Fiber length](#fiber-length) |
+[Comment](#comment) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -292,3 +296,30 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Unit**                 |km|
 |**Additional Instructions**| -- 
 |**Examples**             |5|
+
+### Fiber end location
+|AttributeID              |<div align="right">fiber_end_location <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |end location wrt the IU (if different from cable)|
+|**Type**                 |Float|
+|**Unit**                 |km|
+|**Additional Instructions**| -- 
+|**Examples**             |10|
+
+### Fiber length
+|AttributeID              |<div align="right">fiber_length <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |.  |
+|**Type**                 |Float|
+|**Unit**                 |km|
+|**Additional Instructions**| -- 
+|**Examples**             |8.5|
+
+### Comment
+|AttributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Add additional comment|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |--|
