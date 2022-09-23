@@ -12,6 +12,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 **[Overview](#overview)**:      
 [Location*](#location) |
+[Deployment-type*] (#Deployment-type)
 
 
 
@@ -27,7 +28,15 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| -- 
 |**Examples**             |Parkfield, California, USA|
 
-
+### Deployment-type
+|AttributeID              |<div align="right">deployment_type <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Describes the permenancy of the deployment|
+|**Type**                 |String|
+|**Format**               |Controlled Vocabulary|
+|**Options**              |[permanent , temporary]|
+|**Additional Instructions**| -- 
+|**Examples**             |permanent|
 
 
 
