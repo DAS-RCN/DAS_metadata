@@ -15,7 +15,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Deployment type*](#deployment-type) |
 [Network*](#network) |
 [Site name*](#site-name) |
-
+[Number_of_interrogators*](#number-of-interrogators) |
+[Principle investigators*](#principle-investigators) |
+[Start datetime*](#start-datetime) |
+[End datetime*](#end-datetime) |
+[Purpose of collection](#purpose-of-collection) |
+[Collection mode](#collection-mode) |
+[Comments](#comments) |
 
 ---  
 ## Overview
@@ -57,6 +63,66 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| -- 
 |**Examples**             |SAFOD Borehole|
 
+### Number of interrogators
+|AttributeID              |<div align="right">number_of_interrogators <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Number of interrogators used to collect data over the course of data collection|
+|**Type**                 |Integer|
+|**Additional Instructions**| -- 
+|**Examples**             |2|
 
+### Principle investigators
+|AttributeID              |<div align="right">principle_investigators <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Point of Contact(s)|
+|**Type**                 |String|
+|**Additional Instructions**| -- 
+|**Examples**             |2|
 
+### Start datetime
+|AttributeID              |<div align="right">start_datetime <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Start date of experiment|
+|**Type**                 |String|
+|**Format**               |ISO formatted date-time|
+|**Unit**                 |UTC|
+|**Additional Instructions**| -- 
+|**Examples**             |2018-02-11T00:00:00|
 
+### End datetime
+|AttributeID              |<div align="right">end_datetime <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |End date of experiment|
+|**Type**                 |String|
+|**Format**               |ISO formatted date-time|
+|**Unit**                 |UTC|
+|**Additional Instructions**| -- 
+|**Examples**             |2018-03-24T00:00:00|
+
+### Purpose of location
+|AttributeID              |<div align="right">purpose_of_location <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Brief explanation of purpose|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |Ambient noise study|
+
+### Collection mode
+|AttributeID              |<div align="right">collection_mode <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Are data collected continuously or over several  discrete time windows|
+|**Type**                 |String|
+|**Format**               |Controlled Vocabulary|
+|**Options**              |[continuous, segmented]|
+|**Additional Instructions**| -- 
+|**Examples**             |continuous|
+
+### Comment
+|AttributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Add additional comment|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |--|
