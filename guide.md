@@ -7,7 +7,7 @@ Most of the sample metadata follows [SESAR's metadata guidelines](http://doi.org
 We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---  
-## Sample Metadata Content - Link to More Details
+## Metadata Content 
 *Required fields are marked with an asterisk, and indicated in detailed tables below.
 
 **[Overview Metadata](#overview-metadata)**:      
