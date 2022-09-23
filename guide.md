@@ -2,7 +2,7 @@
 
 Here you will find proposed guidelines for standardizing DAS metadata for archival purposes regardless of the data format ultimately used and to guide data collection at experiments. The intent is that this metadata data standard should be independent of the specific implementation and the emphasis is on content. We provide a suggested outline for content and then show examples for several case studies.
 
-We seek any additional feedback, with the goal of making ESS sample information **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
+We seek any additional feedback, with the goal of making DAS products **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---  
 ## Metadata Content 
