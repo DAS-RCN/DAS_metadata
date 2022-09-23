@@ -22,6 +22,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |AttributeID              |<div align="right">location <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Description of geographic location|
+|**Type**                 |String|
 |**Format**               |Free form|
 |**Additional Instructions**| -- 
 |**Examples**             |Parkfield, California, USA|
