@@ -12,7 +12,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 **[Overview](#overview)**:      
 [Location*](#location) |
-[Deployment-type*] (#Deployment-type)
+[Deployment type*] (#Deployment-type)
 
 
 
