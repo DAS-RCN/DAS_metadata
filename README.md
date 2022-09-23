@@ -1,4 +1,4 @@
-# DAS-RCN Reporting Format for DAS metadata v1.0.0
+# DAS-RCN Reporting Format for Distributed Acoustic Sensing (DAS) metadata v1.0.0
 
 todo: Provide the name of your reporting format in the heading above, and we suggest you add a short (3 or 4 sentence) overview of the motivation for creating the data reporting format.  
 
@@ -8,9 +8,9 @@ Your README.md file should contain a short description of your repository. This 
 
 ## Getting started  
 
-1. [DAS metadata guide](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md): 
-
+1. [DAS metadata guide](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md)
 2. Instructions document: Instructions to read H5 scripts and construct metadata attibute
+3. Sample metadata template: Download template with standard attributes for DAS time series.
 
 ## Version history 
 
