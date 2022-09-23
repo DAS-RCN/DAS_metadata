@@ -36,6 +36,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Fiber refraction index](#fiber-refraction-index) |
 [Attenuation](#attenuation) |
 [Fiber geometry](#fiber-geometry) |
+[Winding angle](#winding-angle) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -275,7 +276,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Examples**             |linear|
 
 ### Winding angle
-|AttributeID              |<div align="right">fiber_refraction_index <img width=200/> <code>Required</code> </div>| 
+|AttributeID              |<div align="right">winding_angle <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Winding angle with respect to cable axis|
 |**Type**                 |Float|
