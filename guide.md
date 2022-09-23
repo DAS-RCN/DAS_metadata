@@ -28,6 +28,8 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Cable start time](#cable-start-time) |
 [Cable end time](#cable-end-time) |
 [Cable characteristics](#cable-characteristics) |
+[Cable model](#cable-model) |
+[Cable diameter](#cable-diameter) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -123,7 +125,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 ### Collection mode
 |AttributeID              |<div align="right">collection_mode <img width=200/> <code>Optional</code> </div>| 
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Are data collected continuously or over several  discrete time windows|
+|**Definition**           |Are data collected continuously or over several discrete time windows|
 |**Type**                 |String|
 |**Format**               |Controlled Vocabulary|
 |**Options**              |[continuous, segmented]|
@@ -145,7 +147,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 ### Cable fiber ID
 |AttributeID              |<div align="right">cable_fiber_id <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A term that identifies the fiber used within an experiment, e.g., alpha-numeric code defined by the researcher, default = 1|
+|**Definition**           |A term that identifies the fiber used within an experiment defined by the researcher|
 |**Type**                 |String|
 |**Format**               |Alpha Numeric|
 |**Default**              |1|
@@ -183,11 +185,38 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Examples**             |gel-filled|
 
 ### Cable environment
-|AttributeID              |<div align="right">cable_characteristics <img width=200/> <code>Optional</code> </div>| 
+|AttributeID              |<div align="right">cable_environment <img width=200/> <code>Optional</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |describes the installation environment|
 |**Type**                 |String|
 |**Format**               |Controlled Vocabulary|
-|**Options**              |[[Conduit, trench, outside borehole casing, wireline]|
+|**Options**              |[Conduit, trench, outside borehole casing, wireline]|
 |**Additional Instructions**| -- 
 |**Examples**             |outside borehole casing|
+
+### Cable model
+|AttributeID              |<div align="right">cable_model <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Cable manufacturer model|
+|**Type**                 |String|
+|**Format**               |Alpha Numeric|
+|**Additional Instructions**| -- 
+|**Examples**             |MD1234|
+
+### Cable diameter
+|AttributeID              |<div align="right">cable_diameter <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Cable diameter|
+|**Type**                 |Float|
+|**Unit**                 |meter|
+|**Additional Instructions**| -- 
+|**Examples**             |0.01|
+
+### Cable coordinates
+|AttributeID              |<div align="right">cable_coordinates <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |List of cable coordinates. List should include a descriptor that indicates how positions were determined and a version number. |
+|**Type**                 |Dictionary|
+|**Unit**                 |WGS84 or meters|
+|**Additional Instructions**| -- 
+|**Examples**             ||
