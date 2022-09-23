@@ -14,7 +14,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Location*](#location) |
 [Deployment type*](#deployment-type) |
 [Network*](#network) |
-
+[Site name*](#site-name) |
 
 
 ---  
@@ -29,7 +29,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Additional Instructions**| -- 
 |**Examples**             |Parkfield, California, USA|
 
-### Deployment-type
+### Deployment type
 |AttributeID              |<div align="right">deployment_type <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |Describes the permenancy of the deployment|
@@ -47,6 +47,16 @@ We seek any additional feedback, with the goal of making ESS sample information 
 |**Format**               |Alpha Numeric|
 |**Additional Instructions**| -- 
 |**Examples**             |PB|
+
+### Site name
+|AttributeID              |<div align="right">site_name <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Name of data collection site|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |SAFOD Borehole|
+
 
 
 
