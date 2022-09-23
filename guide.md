@@ -66,6 +66,14 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 [Comment](#comment) |
 
 **[Channel Metadata](#channel-metadata)**: 
+[Name of asssociated file*](#name-of-associated-file) |
+[File format of asssociated file*](#file-format-of-associated-file) |
+[Generation date*](#generation-date) |
+[Channel ID*](#channel-id) |
+[Reference frame*](#reference-frame) |
+[Location method*](#location-method) |
+[Direction of laser pulse*](#direction-of-laser-pulse) |
+[Comment](#comment) |
 
 ---  
 ## Overview Metadata
@@ -516,6 +524,82 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 |**Unit**                 |Filter Type/frequency band|
 |**Additional Instructions**| -- 
 |**Examples**             |Bandpass 1 - 100 Hz|
+
+### Comment
+|AttributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Add additional comment|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |--|
+
+---
+## Channel Metadata
+
+### Name of associated file
+|AttributeID              |<div align="right">channel_file <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Name of an file attached to data set|
+|**Type**                 |String|
+|**Format**               |Free form|
+|**Additional Instructions**| -- 
+|**Examples**             |coordinates.txt|
+
+### File format of associated file
+|AttributeID              |<div align="right">channel_file_format <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Format of associated file |
+|**Type**                 |String|
+|**Format**               |Controlled vocabulary|
+|**Options**              |[KML, CSV, txt, XML, pdf]|
+|**Additional Instructions**| -- 
+|**Examples**             |CSV|
+
+### Generation date
+|AttributeID              |<div align="right">generation_date <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Date co-ordinates were generated|
+|**Type**                 |String|
+|**Format**               |ISO formatted date-time|
+|**Unit**                 |UTC|
+|**Additional Instructions**| -- 
+|**Examples**             |2022-06-24|
+
+### Channel ID
+|AttributeID              |<div align="right">channel_id <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Uniquely identify channel|
+|**Type**                 |Integer|
+|**Additional Instructions**| -- 
+|**Examples**             |100|
+
+### Reference frame
+|AttributeID              |<div align="right">reference_frame <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Geographic_reference_frame, or coordinate system |
+|**Type**                 |String|
+|**Format**               |Controlled vocabulary|
+|**Options**              |[wgs84, UTM, nominal]|
+|**Additional Instructions**| -- 
+|**Examples**             |wgs84|
+
+### Location method
+|AttributeID              |<div align="right">reference_frame <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Example: Tap tests, GPS, survey |
+|**Type**                 |Text|
+|**Additional Instructions**| -- 
+|**Examples**             |None|
+
+### Direction of laser pulse
+|AttributeID              |<div align="right">reference_frame <img width=200/> <code>Optional</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |Increasing trace number |
+|**Type**                 |Float|
+|**Unit**                 |degrees|
+|**Additional Instructions**| -- 
+|**Examples**             |None|
 
 ### Comment
 |AttributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>| 
