@@ -137,3 +137,13 @@ We seek any additional feedback, with the goal of making ESS sample information 
 
 --
 ## Cable and Fiber Metadata
+
+### Location
+|AttributeID              |<div align="right">cable_fiber_id <img width=200/> <code>Required</code> </div>| 
+|:------------------------|:----------------------------------------------------|
+|**Definition**           |A term that identifies the fiber used within an experiment, e.g., alpha-numeric code defined by the researcher, default = 1|
+|**Type**                 |String|
+|**Format**               |Alpha Numeric|
+|**Default**              |1|
+|**Additional Instructions**| -- 
+|**Examples**             |1A|
