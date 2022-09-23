@@ -8,14 +8,9 @@ Your README.md file should contain a short description of your repository. This 
 
 ## Getting started  
 
-Example: 
-ESS-DIVE's IGSN metadata reference guide:
-IGSN sample metadata guide, modified (from the SESAR IGSN guide - see link and citation below) for interdiscipinary Environmental System Science (ESS) samples.
+1. [DAS metadata guide](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md): 
 
-Other documents to get started:
-
-Instructions document: Instructions to register samples for IGSNs through SESAR, and submit related datasets to ESS-DIVE.
-Sample metadata template: Download spreadsheet template with standard fields to register samples for IGSNs.
+2. Instructions document: Instructions to read H5 scripts and construct metadata attibute
 
 ## Version history 
 
@@ -23,7 +18,7 @@ Sample metadata template: Download spreadsheet template with standard fields to 
 
 ## How to contribute  
 
-todo: Provide details in this section that lets readers know how to suggest modifications to your repository. We recommend that you give a direct link to your [GitHub issues page](https://github.com/ess-dive-community/community-repo-guide/issues). We also suggest that you set up issue templates, so that when users submit a GitHub issue, they do so in a format you specify. Examples of issue templates can be found [here](https://github.com/ess-dive-community/essdive-file-level-metadata/issues/new/choose).  
+There are many ways to contribute. iReport bugs, request features, and suggest new attirbutes via our issue page (https://github.com/vhlai-seis/DAS_metadata/blob/main/contribute.md) using the templates provided.   
 
 ## Copyright information  
 
@@ -35,8 +30,9 @@ Thanks to all who provided input. Sandia National Laboratories is a multimission
 
 ## Recommended citation  
 
-todo: Often, you will upload a finalized version of the content you store in the GitHub Community Space to the ESS-DIVE repository. We ask that you provide a citation to that ESS-DIVE package here in your README file and include the DOI for that citation. If you have published an article or conference paper that is associated with your contribution to this community space, you can also provide the citation for that here.  
+[A manuscript is currently being prepared for submission.] 
+At the meantime, please refer to "Mellors, R. J., Hodgkinson, K. M., Lai, V. H., & the DAS Research Coordination Network Data Management Working Group. (2022, August 15). Distributed Acoustic Sensing (DAS) Metadata Model white paper"
 
 ## Other references    
 
-todo: [if necessary] This section is for other references that you cite within the README page.
+[blank for now]
