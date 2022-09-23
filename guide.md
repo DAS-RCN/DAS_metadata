@@ -24,7 +24,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Comment](#comment) |
 
 **[Cable and Fiber Metadata](#cable-and-fiber-metadata)**:      
-[Cable fiber IDn*](#cable fiber ID) |
+[Cable fiber ID*](#cable fiber ID) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
