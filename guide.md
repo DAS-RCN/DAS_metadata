@@ -24,6 +24,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 [Comment](#comment) |
 
 **[Cable and Fiber Metadata](#cable-and-fiber-metadata)**: 
+[Cable fiber ID](#cable-fiber-ID) |
 
 **[Interrogator Metadata](#interrogator-metadata)**: 
 
@@ -138,7 +139,7 @@ We seek any additional feedback, with the goal of making ESS sample information 
 --
 ## Cable and Fiber Metadata
 
-### Location
+### Cable fiber ID
 |AttributeID              |<div align="right">cable_fiber_id <img width=200/> <code>Required</code> </div>| 
 |:------------------------|:----------------------------------------------------|
 |**Definition**           |A term that identifies the fiber used within an experiment, e.g., alpha-numeric code defined by the researcher, default = 1|
