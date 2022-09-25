@@ -4,7 +4,9 @@
 * 
 * EXAMPLE:
 * [Instructions](instructions.md)
+* 
 * [Guide](guide.md)
+* 
 * Term lists
   * [materials](terms/material.md)
   * [material translation table](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/terms/material_translation_table.csv)
@@ -14,6 +16,7 @@
   * [sample metadata sources](terms/sampleMetadata_sources.md)
   * [units](terms/units.md)
 * [Template](https://github.com/ess-dive-community/essdive-sample-id-metadata/blob/master/terms/sampleMetadataTranslationTable.xlsx)
+* 
 * [Contribute](contribute.md)
 * 
 * [License](LICENSE.md)
