@@ -20,7 +20,8 @@ Submit a new issue [here](https://github.com/vhlai-seis/DAS_metadata/blob/main/c
 - suggest a new term
 - modify a term
 - propose changes to documentation within this repository
-- request features or report bugs.  
+- request features 
+- report bugs
 
 ---
 
