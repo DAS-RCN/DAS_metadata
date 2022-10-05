@@ -16,15 +16,21 @@ The proposed metadata is divided into five major blocks: overview, cable and fib
 2. Download templates for the standardized attributes
 3. Explore our example gallery for DAS metadata in different deployment scenarios.
 
-## Version history 
-
-• v1.0.0: This is the first release of the DAS Metadata Reporting Format
-
 ## How to contribute  
 
 Want to make a change to the reporting format? 
 
-Submit a new issue [here](https://github.com/vhlai-seis/DAS_metadata/blob/main/contribute.md) and use one of several templates that we provide to: suggest a new term, modify a term, propose changes to documentation within this repository, request features or report bugs.  
+Submit a new issue [here](https://github.com/vhlai-seis/DAS_metadata/blob/main/contribute.md) and use one of several templates that we provide to: 
+- suggest a new term
+- modify a term
+- propose changes to documentation within this repository
+- request features or report bugs.  
+
+---
+
+## Version history 
+
+• v1.0.0: This is the first release of the DAS Metadata Reporting Format
 
 ## Copyright information  
 
