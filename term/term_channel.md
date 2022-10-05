@@ -103,7 +103,7 @@
 |**Examples**             |--|
 
 ---
-## Channel Metadata
+## Coordinate file
 
 ### Channel ID
 |AttributeID              |<div align="right">channel_ID <img width=200/> <code>Required</code> </div>| 
