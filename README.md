@@ -6,7 +6,7 @@ Here, DAS-RCN Data Management Working Group proposes a starting point for a comm
 
 The proposed metadata is divided into five major blocks: overview, cable and fiber, interrogator, acquisition, and channel.
 
-![Figure showing overall metadata structure](https://github.com/vhlai-seis/DAS_metadata/blob/main/figures/fig_overview_metadata.png?raw=true)
+![DAS metadata structure](./figures/fig_overview_metadata.png?raw=true)
 
 --- 
 
