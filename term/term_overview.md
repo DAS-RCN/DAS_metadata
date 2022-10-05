@@ -1,4 +1,3 @@
-
 **Overview Metadata**:      
 [Location*](#location) |
 [Deployment type*](#deployment-type) |
