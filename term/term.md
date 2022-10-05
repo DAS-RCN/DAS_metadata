@@ -8,7 +8,7 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 
 ---
 
-The proposed metadata is divided into five major blocks: [overview](./term_overview.md), [cable and fiber](./term_cable_and_fiber.md), [interrogator](./term_interrogator.md), [acquisition](./term_acquisition.md), and [channel](./term_channel.md).
+The proposed metadata is divided into five major blocks: [overview](term_overview.md), [cable and fiber](term_cable_and_fiber.md), [interrogator](term_interrogator.md), [acquisition](term_acquisition.md), and [channel](term_channel.md).
 
 ![DAS metadata structure](../figures/fig_overview_metadata.png?raw=true)
 
