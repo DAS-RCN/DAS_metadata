@@ -41,6 +41,4 @@ Thanks to all who provided input. Sandia National Laboratories is a multimission
 
 A manuscript is currently being prepared for submission. At the meantime, please refer to "Mellors, R. J., Hodgkinson, K. M., Lai, V. H., & the DAS Research Coordination Network Data Management Working Group. (2022, August 15). Distributed Acoustic Sensing (DAS) Metadata Model white paper"
 
-## Other references    
 
-[blank for now]
