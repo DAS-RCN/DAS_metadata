@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
-* [Term](term/term.md)
+* [Metadata term](term/term.md)
   * [Overview](term/term_overview.md)
   * [Cable and Fiber](term/term_cable_and_fiber.md)
   * [Interrogator](term/term_interrogator.md)
