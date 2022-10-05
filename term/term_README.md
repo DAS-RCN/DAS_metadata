@@ -10,5 +10,5 @@ We seek any additional feedback, with the goal of making DAS products **F**indab
 
 The proposed metadata is divided into five major blocks: [overview](term_overview.md), [cable and fiber](term_cable_and_fiber.md), [interrogator](term_interrogator.md), [acquisition](term_acquisition.md), and [channel](term_channel.md).
 
-![DAS metadata structure](https://github.com/vhlai-seis/DAS_metadata/blob/main/figures/fig_overview_metadata.png)
+![DAS metadata structure](https://raw.githubusercontent.com/vhlai-seis/DAS_metadata/main/figures/fig_overview_metadata.png?token=GHSAT0AAAAAABXRN5PA6LM5W3JYLNTFVMMCYZ5CANA)
 
