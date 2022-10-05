@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [DAS-RCN Reporting Format for Distributed Acoustic Sensing (DAS) metadata v1.0.0](README.md)
 * [Metadata term](term/term.md)
   * [Overview](term/term_overview.md)
   * [Cable and Fiber](term/term_cable_and_fiber.md)
