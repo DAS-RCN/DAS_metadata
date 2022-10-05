@@ -74,6 +74,20 @@ I suggest the following changes:
 
 ```
 
+### Request new feature
+
+Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to request a new feature.
+
+```
+## Report bug
+
+* Short description of new feature:
+* Submitter:
+
+Feature request (reason, suggestion to implement):
+
+```
+
 ### Report bug
 
 Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to report a bug.
