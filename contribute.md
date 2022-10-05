@@ -79,7 +79,7 @@ I suggest the following changes:
 Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to request a new feature.
 
 ```
-## Report bug
+## Request new feature
 
 * Short description of new feature:
 * Submitter:
