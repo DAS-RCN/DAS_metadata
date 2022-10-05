@@ -4,10 +4,6 @@ Distributed Acoustic Sensing (DAS) is a transformative technology and its applic
 
 Here, DAS-RCN Data Management Working Group proposes a starting point for a common ***DAS metadata standard*** for archival purposes and to guide data collection at experiments. The intent is that this metadata data standard should be independent of the specific implementation and the emphasis is on content. 
 
-The proposed metadata is divided into five major blocks: overview, cable and fiber, interrogator, acquisition, and channel.
-
-![DAS metadata structure](./figures/fig_overview_metadata.png?raw=true)
-
 --- 
 
 ## Getting started  
