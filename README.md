@@ -12,9 +12,9 @@ The proposed metadata is divided into five major blocks: overview, cable and fib
 
 ## Getting started  
 
-1. [DAS metadata guide](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md)
-2. Instructions document: Instructions to read H5 scripts and construct metadata attibute
-3. Sample metadata template: Download template with standard attributes for DAS time series.
+1. Read the [DAS metadata terms and definitions](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md)
+2. Download templates for the standardized attributes
+3. Explore our example gallery for DAS metadata in different deployment scenarios.
 
 ## Version history 
 
