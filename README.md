@@ -8,7 +8,7 @@ Here, DAS-RCN Data Management Working Group proposes a starting point for a comm
 
 ## Getting started  
 
-1. Read the [DAS metadata terms and definitions](https://github.com/vhlai-seis/DAS_metadata/blob/main/guide.md)
+1. Read the [DAS metadata terms and definitions](./term/term.md)
 2. Download templates for the standardized attributes
 3. Explore our example gallery for DAS metadata in different deployment scenarios.
 
