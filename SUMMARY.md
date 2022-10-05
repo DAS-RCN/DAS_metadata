@@ -1,12 +1,12 @@
 # Table of contents
 
-* [Overview](README.md)
+* [Home](README.md)
 * [Term](term/term.md)
-  * [overview](term/term_overview.md)
-  * [cable and fiber](term/term_cable_and_fiber.md)
-  * [interrogator](term/term_interrogator.md)
-  * [acquisition](term/term_acquisition.md)
-  * [channel](term/term_channel.md)
+  * [Overview](term/term_overview.md)
+  * [Cable and Fiber](term/term_cable_and_fiber.md)
+  * [Interrogator](term/term_interrogator.md)
+  * [Acquisition](term/term_acquisition.md)
+  * [Channel](term/term_channel.md)
 * [Template](template/template.md)
 * [Example](example/example.md)
 * [Contribute](contribute.md)
