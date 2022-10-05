@@ -59,7 +59,7 @@ I suggest the following changes (leave blank whatever would not change):
 
 ```
 
-### Change documentation
+### Change documentation 
 
 Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to make a change to the documentation.
 
@@ -74,4 +74,17 @@ I suggest the following changes:
 
 ```
 
+### Report bug
+
+Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to report a bug.
+
+```
+## Report bug
+
+* Short description of bug:
+* Submitter:
+
+Bug description (behavior and how to reproduce):
+
+```
 
