@@ -8,9 +8,9 @@ Here, DAS-RCN Data Management Working Group proposes a starting point for a comm
 
 ## Getting started  
 
-1. Read the [DAS metadata terms and definitions](./term/term.md)
-2. Download templates for the standardized attributes
-3. Explore our example gallery for DAS metadata in different deployment scenarios.
+1. Read the DAS metadata [terms and definitions](./term/term_README.md)
+2. Download [templates](./template/template_README.md) for the standardized attributes
+3. Explore our [example gallery](./example/example_README.md) for DAS metadata in different deployment scenarios.
 
 ## How to contribute  
 
