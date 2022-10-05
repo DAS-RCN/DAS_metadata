@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Readme](README.md)
-* [Metadata term](term/term.md)
+* [DAS metadata homepage](README.md)
+* [Metadata structure](term/term.md)
   * [Overview](term/term_overview.md)
   * [Cable and Fiber](term/term_cable_and_fiber.md)
   * [Interrogator](term/term_interrogator.md)
