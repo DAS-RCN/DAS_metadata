@@ -6,8 +6,11 @@ In addition, we distinguish between required and recommended metadata.  Required
 
 We seek any additional feedback, with the goal of making DAS products **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
----  
-## Metadata Content 
+---
+
+The proposed metadata is divided into five major blocks: overview, cable and fiber, interrogator, acquisition, and channel.
+
+![DAS metadata structure](../figures/fig_overview_metadata.png?raw=true)
 
 [Overview Metadata](#overview-metadata)    
 [Cable and Fiber Metadata](#cable-and-fiber-metadata)    
