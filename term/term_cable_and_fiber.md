@@ -17,6 +17,9 @@
 [Fiber length](#fiber-length) |
 [Comment](#comment) |
 
+*Required fields are marked with an asterisk, and indicated in detailed tables below.
+
+
 ---
 
 ### Cable fiber ID
