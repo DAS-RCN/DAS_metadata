@@ -1,11 +1,16 @@
-**Cable and Fiber Metadata**:      
+**Cable and Fiber Metadata**
+* Describes the cable environment and the fibers used within the cable. More than one cable may be used over the course of an experiment and there may be several fibers within a cable. The intention is to uniquely identify the fiber used to make the measurements.
+
+* Required fields *(mark with an asterisk, and indicated in the tables below)*  
 [Cable fiber ID*](#cable-fiber-ID) |
+[Cable coordinates*](#cable-coordinates) 
+
+* Optional fields\
 [Cable start time](#cable-start-time) |
 [Cable end time](#cable-end-time) |
 [Cable characteristics](#cable-characteristics) |
 [Cable model](#cable-model) |
 [Cable diameter](#cable-diameter) |
-[Cable coordinates*](#cable-coordinates) |
 [Cable connector coordinates](#cable-connector-coordinates) |
 [Fiber mode](#fiber-mode) |
 [Fiber refraction index](#fiber-refraction-index) |
@@ -15,10 +20,7 @@
 [Fiber start location](#fiber-start-location) |
 [Fiber end location](#fiber-end-location) |
 [Fiber length](#fiber-length) |
-[Comment](#comment) |
-
-*Required fields are marked with an asterisk, and indicated in detailed tables below.
-
+[Comment](#comment) 
 
 ---
 
