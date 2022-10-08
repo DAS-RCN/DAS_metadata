@@ -12,13 +12,13 @@
 [Archived sample rate*](#archived-sample-rate) |
 [Unit of measure*](#unit-of-measure) |
 [Decimation*](#decimation) |
-[Filtering*](#filtering) |
+[Filtering*](#filtering) 
 
 * Optional fields
 [Pulse repetition rate](#pulse-repetition-rate) |
 [Interrogator rate](#interrogator-rate) |
 [Pulse width](#pulse-width) |
-[Comment](#comment) |
+[Comment](#comment) 
 
 ---
 
