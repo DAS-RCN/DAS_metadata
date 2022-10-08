@@ -1,11 +1,11 @@
-**Acquisition Metadata**:      
+**Acquisition Metadata**
+* Contains information on data collection, sample rate, pulse length, gauge length, channel spacing, and signal-processing steps.
+
+* Required fields *(mark with an asterisk, and indicated in the tables below)*  
 [Acquisition ID*](#acquisition-ID) |
 [Acquisition start time*](#acquisition-start-time) |
 [Acquisition end time*](#acquisition-end-time) |
 [Acquisition sample rate*](#acquisition-sample-rate) |
-[Pulse repetition rate](#pulse-repetition-rate) |
-[Interrogator rate](#interrogator-rate) |
-[Pulse width](#pulse-width) |
 [Gauge length*](#gauge-length) |
 [Number of channels*](#number-of-channels) |
 [Channel spacing*](#channel-spacing) |
@@ -13,10 +13,12 @@
 [Unit of measure*](#unit-of-measure) |
 [Decimation*](#decimation) |
 [Filtering*](#filtering) |
+
+* Optional fields
+[Pulse repetition rate](#pulse-repetition-rate) |
+[Interrogator rate](#interrogator-rate) |
+[Pulse width](#pulse-width) |
 [Comment](#comment) |
-
-*Required fields are marked with an asterisk, and indicated in detailed tables below.
-
 
 ---
 
