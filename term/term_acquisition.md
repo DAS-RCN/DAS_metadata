@@ -14,7 +14,7 @@
 [Decimation*](#decimation) |
 [Filtering*](#filtering) 
 
-* Optional fields
+* Optional fields\
 [Pulse repetition rate](#pulse-repetition-rate) |
 [Interrogator rate](#interrogator-rate) |
 [Pulse width](#pulse-width) |
