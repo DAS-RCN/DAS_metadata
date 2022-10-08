@@ -1,7 +1,7 @@
 **Overview Metadata** 
 * Gives a high-level overview of the DAS deployment. This metadata group is intended to describe the geographic location, or region, of the installation and dates of the project. This metadata group is intended to facilitate discovery based on spatio-temporal searches.
 
-* Required fields (mark with an asterisk, and indicated in the tables below)  
+* Required fields *(mark with an asterisk, and indicated in the tables below)*  
 [Location*](#location) |
 [Deployment type*](#deployment-type) |
 [Network*](#network) |
@@ -11,7 +11,7 @@
 [Start datetime*](#start-datetime) |
 [End datetime*](#end-datetime) 
 
-* Optional fields 
+* Optional fields\
 [Purpose of collection](#purpose-of-collection) |
 [Collection mode](#collection-mode) |
 [Comment](#comment) |
