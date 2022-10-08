@@ -1,4 +1,4 @@
-**[Interrogator](#interrogator-metadata)**
+**Interrogator**
 * Contains information about the interrogators used. More than one interrogator may be operating during an experiment. Each interrogator is described in one interrogator metadata block. The metadata consists of a unique identifier, the interrogator model, and the unit of measure.
 
 * Required fields *(mark with an asterisk, and indicated in the tables below)*  
