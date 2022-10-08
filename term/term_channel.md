@@ -10,14 +10,14 @@
 [Location method*](#location-method) |
 [Direction of laser pulse*](#direction-of-laser-pulse) 
 
-**[Coordinate file](#coordinate-file)**: 
+* **[Coordinate file](#coordinate-file)**:  
 [Channel ID*](#channel-id) |
 [Distance along fiber*](#distance-along-fiber) |
 [Y coordinate*](#y-coordinate) |
 [X coordinate*](#x-coordinate) |
 [Depth*](#depth) 
 
-* Optional fields
+* Optional fields in "Coordinate file"\
 [Y coordinate error](#y-coordinate-error) |
 [X coordinate error](#x-coordinate-error) |
 [Elevation](#elevation) |
