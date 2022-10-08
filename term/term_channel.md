@@ -1,31 +1,33 @@
-**Channel Metadata**: 
+**Channel Metadata**
+* Describes each individual channel along the fiber, e.g., position, pulse direction, and location method. One possibility here is to have a pointer to a file(s) with a known format (e.g. kml, csv) rather than repeat all information.
+
+* Required fields *(mark with an asterisk, and indicated in the tables below)*  
 [Name of asssociated file*](#name-of-associated-file) |
 [File format of asssociated file*](#file-format-of-associated-file) |
 [Generation date*](#generation-date) |
 [Channel ID*](#channel-id) |
 [Reference frame*](#reference-frame) |
 [Location method*](#location-method) |
-[Direction of laser pulse*](#direction-of-laser-pulse) |
-[Comment](#comment) |
+[Direction of laser pulse*](#direction-of-laser-pulse) 
 
 **[Coordinate file](#coordinate-file)**: 
 [Channel ID*](#channel-id) |
 [Distance along fiber*](#distance-along-fiber) |
 [Y coordinate*](#y-coordinate) |
-[Y coordinate error](#y-coordinate-error) |
 [X coordinate*](#x-coordinate) |
+[Depth*](#depth) 
+
+* Optional fields
+[Y coordinate error](#y-coordinate-error) |
 [X coordinate error](#x-coordinate-error) |
 [Elevation](#elevation) |
 [Elevation error](#elevation-error) |
-[Depth*](#depth) |
 [Depth error](#depth-error) |
 [Strike](#strike) |
 [Strike error](#strike-error) |
 [Dip](#dip) |
 [Dip error](#dip-error) |
-
-*Required fields are marked with an asterisk, and indicated in detailed tables below.
-
+[Comment](#comment) 
 
 ---
 
