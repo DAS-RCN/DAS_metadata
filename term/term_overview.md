@@ -14,8 +14,7 @@
 * Optional fields\
 [Purpose of collection](#purpose-of-collection) |
 [Collection mode](#collection-mode) |
-[Comment](#comment) |
-
+[Comment](#comment) 
 
 
 
