@@ -3,7 +3,7 @@
 Here's how you can contribute to DAS-RCN's proposed DAS metadata reporting format:
 
 * Want to make a change to the reporting format? Copy and paste one of the **issue templates** below and [submit a new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new).
-* Have a question? Contact us at voonhui.lai @ anu.edu.au ; kmhodgk @ sandia.gov ; rmellors @ ucsd.edu 
+* Have a question? Contact us at voonhui.lai @ anu.edu.au ; rmellors @ ucsd.edu 
 . 
 
 ---
