@@ -17,7 +17,7 @@ Darwin Core maintenance group, Biodiversity Information Standards (TDWG) (2014).
 
 ### New term
 
-Copy and paste this template into your [new issue](https://github.com/vhlai-seis/DAS_metadata/issues/new) if you want to create a term that does not exist yet.
+Copy and paste this template into your [new issue](https://github.com/DAS-RCN/DAS_metadata/issues/new) if you want to create a term that does not exist yet.
 
 ```
 ## New term
