@@ -1,0 +1,127 @@
+{
+    "title": "Distributed Acoustic Sensing Metadata - Overview",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "required": [
+        "location",
+        "deployment_type",
+        "network",
+        "site_name",
+        "number_of_interrogators",
+        "principle_investigators",
+        "start_datetime",
+        "end_datetime",
+        "purpose_of_collection",
+        "collection_mode",
+        "comment"
+    ],
+    "properties": {
+        "location": {
+            "type": "string",
+            "default": "",
+            "title": "Description of geographic location",
+            "examples": [
+                "Parkfield, California, USA"
+            ]
+        },
+        "deployment_type": {
+            "type": "string",
+            "default": "",
+            "title": "Describes the permanency of the deployment",
+            "examples": [
+                "permanent"
+            ]
+        },
+        "network": {
+            "type": "string",
+            "default": "",
+            "title": "A network name that is managed by an organization accepted by the international",
+            "examples": [
+                "PB"
+            ]
+        },
+        "site_name": {
+            "type": "string",
+            "default": "",
+            "title": "Name of data collection site",
+            "examples": [
+                "SAFOD Borehole"
+            ]
+        },
+        "number_of_interrogators": {
+            "type": "number",
+            "default": "",
+            "title": "Number of interrogators used to collect data over the course of data collection",
+            "examples": [
+                2
+            ]
+        },
+        "principle_investigators": {
+            "type": "string",
+            "default": "",
+            "title": "Point of Contact(s)",
+            "examples": [
+                "P.I. Doe"
+            ]
+        },
+        "start_datetime": {
+            "type": "string",
+            "format": "date-time",
+            "default": "",
+            "title": "Start date of experiment",
+            "examples": [
+                "2018-02-11T00:00:00"
+            ]
+        },
+        "end_datetime": {
+            "type": "string",
+            "format": "date-time",
+            "default": "",
+            "title": "End date of experiment",
+            "examples": [
+                "2018-03-24T00:00:00"
+            ]
+        },
+        "purpose_of_collection": {
+            "type": "string",
+            "default": "",
+            "title": "Brief explanation of purpose",
+            "examples": [
+                "Ambient noise study"
+            ]
+        },
+        "collection_mode": {
+            "type": "string",
+            "default": "",
+            "title": "Are data collected continuously or over several discrete time windows",
+            "examples": [
+                "continuous"
+            ]
+        },
+        "comment": {
+            "type": "string",
+            "default": "",
+            "title": "Add additional comment",
+            "examples": [
+                ""
+            ]
+        }
+    },
+    "examples": [
+        {
+            "location": "",
+            "deployment_type": "",
+            "network": "",
+            "site_name": "",
+            "number_of_interrogators": 1,
+            "principle_investigators": "",
+            "start_datetime": "",
+            "end_datetime": "",
+            "purpose_of_collection": "",
+            "collection_mode": "",
+            "comment": ""
+        }
+    ]
+}
