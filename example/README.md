@@ -2,7 +2,7 @@
 
 We plan to provide the following examples for everyone's reference:
 
-* **Step-by-step guide to use [provided template](../template/template_README.md)** 
+* **Step-by-step guide to use [provided template](../template/README.md)** 
 * **Borehole DAS deployment** : Example from SAFOD experiment
 * **Active source survey on directly-buried horizontal cable** : Example from NHERI Levee experiment
 * **Continuous monitoring on directly-buried horizontal cable** : Example from POROTOMO experiment
