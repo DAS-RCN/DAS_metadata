@@ -1,7 +1,7 @@
   **Channel Group Metadata**
 * The Channel Group metadata describes the properties that are common to all the channels nested under the Interrogator and Acquisition metadata blocks. Having a group-level metadata removes the repetition of common attributes in the individual Channel metadata. This design allows multiple channel groups to exist under the same interrogator and data acquisition settings. The unique identifiers for the interrogator, acquisition, cable and fiber are recorded as well in this metadata block to allows mapping between the interrogator, acquisition, and fiber that were used for this set of coordinates during a particular data collection.
 
-* Required fields *(mark with an asterisk, and indicated in the tables below)*
+* Required fields *(mark with an asterisk, and indicated in the tables below)*\
 [channel_group_id*](#channel_group_id) |
 [interrogator_id*](#interrogator_id) |
 [acquisition_id*](#acquisition_id) |
