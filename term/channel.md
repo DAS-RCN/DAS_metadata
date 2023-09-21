@@ -1,7 +1,7 @@
 **Channel Metadata**
 * Nested under the Channel Group metadata, the individual Channel metadata consists of properties that are unique to each channel, including a unique identifier, coordinates, and for borehole cable, optional strike and dip. Note that the total amount of individual Channel metadata may be equal or less than the number_of_channels attribute specified under Acquisition metadata as only a subset of the channels may be included in the data. This is to accommodate cases where channels cannot be located or omitted due to various reasons.
 
-* Required fields *(mark with an asterisk, and indicated in the tables below)*
+* Required fields *(mark with an asterisk, and indicated in the tables below)*\
 [channel_id*](#channel_id) |
 [channel_group_id*](#channel_group_id) |
 [distance_along_fiber*](#distance_along_fiber) |
