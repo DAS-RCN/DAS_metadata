@@ -1,7 +1,7 @@
 **Overview Metadata**
 * The Overview metadata gives a high-level overview of the DAS deployment and describes the geographic location of the installation, dates of the project, and information on the data provider.
 
-* Required fields *(mark with an asterisk, and indicated in the tables below)*
+* Required fields *(mark with an asterisk, and indicated in the tables below)*\
 [network_code*](#network_code) |
 [location*](#location) |
 [country*](#country) |
