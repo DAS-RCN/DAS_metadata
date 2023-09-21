@@ -1,14 +1,13 @@
-# Distributed Acoustic Sensing Metadata Guide
+# Distributed Acoustic Sensing Metadata Guide (v1.1.0)
 
-Here you will find proposed guidelines for standardizing DAS metadata for archival purposes and to guide data collection at experiments. The intent is that this metadata data standard should be independent of the specific implementation and the emphasis is on content. We provide a suggested outline for content and show examples for several case studies.
+The metadata fully describes the five key components of a DAS data collection system: (1) interrogator, (2) data acquisition, (3) channels, (4) cable, and (5) fiber. The metadata schema is hierarchical based, with a parent ‘overview’ metadata block describing the experiment, and two main child branches describing the instrument (i.e., interrogator, photonics setup, acquisition parameters) and the sensor locations (i.e., cable installation and fiber properties). The simplest example is one fiber within one cable connected to one interrogator. The suggested metadata structure allows for much more complex installations with multiple fibers, cables, and interrogators deployed with different acquisition parameters. The metadata schema is designed to be independent of the time-series data so that corrections and updates can be applied to the metadata, without having to manipulate large volumes of time-series data.
 
-In addition, we distinguish between required and recommended metadata.  Required metadata is information that is considered essential to enable re-use of the data. This information makes the data self-describing and no further information required from the provider to work with the data. Optional metadata is information that could be useful in interpreting the measured signal but is not essential. For example, gauge length is required metadata while the geographic coordinates of tap tests used to provide gauge positions is recommended. 
+Each metadata block consists of required and optional attributes. Required metadata is information that is considered essential to enable re-use of the data. This information makes the data self-describing and no further information required from the provider to work with the data. Optional metadata is information that could be useful in interpreting the measured signal but is not essential.
 
-We seek any additional feedback, with the goal of making DAS products **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable (FAIR). 
 
 ---
 
 The proposed metadata is divided into five major blocks: [overview](term_overview.md), [cable and fiber](term_cable_and_fiber.md), [interrogator](term_interrogator.md), [acquisition](term_acquisition.md), and [channel](term_channel.md).
 
-![DAS metadata structure](../figures/fig_overview_metadata.png)
+![Conceptual model of the metadata schema (v1.1.0)](../figures/fig_metadata_schema_simple.png)
 
