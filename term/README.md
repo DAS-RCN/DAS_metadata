@@ -7,7 +7,7 @@ Each metadata block consists of required and optional attributes. Required metad
 
 ---
 
-The proposed metadata is divided into five major blocks: [overview](overview.md), [interrogator](interrogator.md), [acquisition](acquisition.md), [channel group](channelgroup.md) (and individual [channel](channel.md)), [cable](cable.md), and [fiber](fiber.md). 
+The proposed metadata is divided into six major blocks: [overview](overview.md), [interrogator](interrogator.md), [acquisition](acquisition.md), [channel group](channelgroup.md) (and individual [channel](channel.md)), [cable](cable.md), and [fiber](fiber.md). 
 
 ![Conceptual model of the metadata schema (v1.1.0)](../figures/fig_metadata_schema_simple.png)
 
