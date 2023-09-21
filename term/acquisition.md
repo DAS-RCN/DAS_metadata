@@ -1,5 +1,7 @@
 **Acquisition Metadata**
-* The Acquisition metadata describes the acquisition parameters set by the user on a particular interrogator. While different interrogator vendors may implement various photonics design and algorithms which are not easily translatable across interrogators, the Acquisition metadata intends to capture the critical acquisition attributes that are commonly required to analyze and interpret the output time series or matrices. These attributes are carefully defined to be standardized across all interrogator systems. While the Acquisition metadata listed below should be self-sufficient for most purposes, the native headers provided by interrogator vendors can be preserved for expert users.
+* The Acquisition metadata describes the acquisition parameters set by the user on a particular interrogator. While different interrogator vendors may implement various photonics design and algorithms which are not easily translatable across interrogators, the Acquisition metadata intends to capture the critical acquisition attributes that are commonly required to analyze and interpret the output time series or matrices. These attributes are carefully defined to be standardized across all interrogator systems.
+
+* While the Acquisition metadata listed below should be self-sufficient for most purposes, the native headers provided by interrogator vendors can be preserved for expert users.
 
 * Required fields *(mark with an asterisk, and indicated in the tables below)*\
 [acquisition_id*](#acquisition_id) |
