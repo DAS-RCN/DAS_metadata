@@ -1,7 +1,7 @@
 **Interrogator Metadata**
 * The Interrogator metadata contains information about the interrogator unit used for the data collection. More than one interrogator may be operating during an experiment, therefore each unit is given a unique identifier and described in individual Interrogator metadata blocks.
 
-* Required fields *(mark with an asterisk, and indicated in the tables below)*
+* Required fields *(mark with an asterisk, and indicated in the tables below)*\
 [interrogator_id*](#interrogator_id) |
 [manufacturer*](#manufacturer) |
 [model*](#model) |
