@@ -1,122 +1,188 @@
-**Overview Metadata** 
-* Gives a high-level overview of the DAS deployment. This metadata group is intended to describe the geographic location, or region, of the installation and dates of the project. This metadata group is intended to facilitate discovery based on spatio-temporal searches.
+**Overview Metadata**
+* The Overview metadata gives a high-level overview of the DAS deployment and describes the geographic location of the installation, dates of the project, and information on the data provider.
 
-* Required fields *(mark with an asterisk, and indicated in the tables below)*  
-[Location*](#location) |
-[Deployment type*](#deployment-type) |
-[Network*](#network) |
-[Site name*](#site-name) |
-[Number_of_interrogators*](#number-of-interrogators) |
-[Principle investigators*](#principle-investigators) |
-[Start datetime*](#start-datetime) |
-[End datetime*](#end-datetime) 
+* Required fields *(mark with an asterisk, and indicated in the tables below)*
+[network_code*](#network_code) |
+[location*](#location) |
+[country*](#country) |
+[principal_investigator_name*](#principal_investigator_name) |
+[principal_investigator_email*](#principal_investigator_email) |
+[principal_investigator_address*](#principal_investigator_address) |
+[point_of_contact*](#point_of_contact) |
+[point_of_contact_email*](#point_of_contact_email) |
+[point_of_contact_address*](#point_of_contact_address) |
+[start_date*](#start_date) |
+[end_date*](#end_date)
+
 
 * Optional fields\
-[Purpose of collection](#purpose-of-collection) |
-[Collection mode](#collection-mode) |
-[Comment](#comment) 
-
+[funding_agency](#funding_agency) |
+[project_number](#project_number) |
+[digital_object_identifier](#digital_object_identifier) |
+[purpose_of_data_collection](#purpose_of_data_collection) |
+[comment](#comment)
 
 
 ---
 
-### Location
-|AttributeID              |<div align="right">location <img width=200/> <code>Required</code> </div>| 
+### network_code
+|attributeID              |<div align="right">network_code <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Description of geographic location|
-|**Type**                 |String|
-|**Format**               |Free form|
-|**Additional Instructions**| -- 
-|**Examples**             |Parkfield, California, USA|
+|**Description**         |Unique network name for the installation with a maximum of 8 alphanumeric characters with no special characters (e.g., underscores, period, dash). |
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Alphanumeric|
+|**Units or options**    | -- |
+|**Example**             |NVPORO|
 
-### Deployment type
-|AttributeID              |<div align="right">deployment_type <img width=200/> <code>Required</code> </div>| 
+### location
+|attributeID              |<div align="right">location <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Describes the permenancy of the deployment|
-|**Type**                 |String|
-|**Format**               |Controlled vocabulary|
-|**Options**              |[permanent , temporary]|
-|**Additional Instructions**| -- 
-|**Examples**             |permanent|
+|**Description**         |Geographic location of the installation. |
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |Brady's Hot Springs, Nevada|
 
-### Network
-|AttributeID              |<div align="right">network <img width=200/> <code>Required</code> </div>| 
+### country
+|attributeID              |<div align="right">country <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |A network name that is managed by an organization accepted by the international community. The network name should uniquely identify the the source of the data|
-|**Type**                 |String|
-|**Format**               |Alpha Numeric|
-|**Additional Instructions**| -- 
-|**Examples**             |PB|
+|**Description**         |Country where the installation is located. Use ISO 3166-1 alpha-3 three-letter country code. |
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |USA|
 
-### Site name
-|AttributeID              |<div align="right">site_name <img width=200/> <code>Required</code> </div>| 
+### principal_investigator_name
+|attributeID              |<div align="right">principal_investigator_name <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Name of data collection site|
-|**Type**                 |String|
-|**Format**               |Free form|
-|**Additional Instructions**| -- 
-|**Examples**             |SAFOD Borehole|
+|**Description**         |Name of principal investigator for the installation.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |USA|
 
-### Number of interrogators
-|AttributeID              |<div align="right">number_of_interrogators <img width=200/> <code>Required</code> </div>| 
-|:------------------------|:----------------------------------------------------|
-|**Definition**           |Number of interrogators used to collect data over the course of data collection|
-|**Type**                 |Integer|
-|**Additional Instructions**| -- 
-|**Examples**             |2|
 
-### Principle investigators
-|AttributeID              |<div align="right">principle_investigators <img width=200/> <code>Required</code> </div>| 
+### principal_investigator_email
+|attributeID              |<div align="right">principal_investigator_email <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Point of Contact(s)|
-|**Type**                 |String|
-|**Additional Instructions**| -- 
-|**Examples**             |P.I. Doe|
+|**Description**         |Email address of principal investigator.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Email address|
+|**Units or options**    | -- |
+|**Example**             | -- |
 
-### Start datetime
-|AttributeID              |<div align="right">start_datetime <img width=200/> <code>Required</code> </div>| 
+### principal_investigator_address
+|attributeID              |<div align="right">principal_investigator_address <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Start date of experiment|
-|**Type**                 |String|
-|**Format**               |ISO formatted date-time|
-|**Unit**                 |UTC|
-|**Additional Instructions**| -- 
-|**Examples**             |2018-02-11T00:00:00|
+|**Description**         |Physical address and institution of principal investigator.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |University of Wisconsin|
 
-### End datetime
-|AttributeID              |<div align="right">end_datetime <img width=200/> <code>Required</code> </div>| 
+### point_of_contact
+|attributeID              |<div align="right">point_of_contact <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |End date of experiment|
-|**Type**                 |String|
-|**Format**               |ISO formatted date-time|
-|**Unit**                 |UTC|
-|**Additional Instructions**| -- 
-|**Examples**             |2018-03-24T00:00:00|
+|**Description**         |Point of contact for the metadata.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             | -- |
 
-### Purpose of collection
-|AttributeID              |<div align="right">purpose_of_collection <img width=200/> <code>Optional</code> </div>| 
+### point_of_contact_email
+|attributeID              |<div align="right">point_of_contact_email <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Brief explanation of purpose|
-|**Type**                 |String|
-|**Format**               |Free form|
-|**Additional Instructions**| -- 
-|**Examples**             |Ambient noise study|
+|**Description**         |Email address of point of contact.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Email address|
+|**Units or options**    | -- |
+|**Example**             | -- |
 
-### Collection mode
-|AttributeID              |<div align="right">collection_mode <img width=200/> <code>Optional</code> </div>| 
+### point_of_contact_address
+|attributeID              |<div align="right">point_of_contact_address <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Are data collected continuously or over several discrete time windows|
-|**Type**                 |String|
-|**Format**               |Controlled vocabulary|
-|**Options**              |[continuous, segmented]|
-|**Additional Instructions**| -- 
-|**Examples**             |continuous|
+|**Description**         |Physical address and institution of point of contact.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |University of Wisconsin|
 
-### Comment
-|AttributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>| 
+### start_date
+|attributeID              |<div align="right">start_date <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Definition**           |Add additional comment|
-|**Type**                 |String|
-|**Format**               |Free form|
-|**Additional Instructions**| -- 
-|**Examples**             |--|
+|**Description**         |Start date of data collection at the installation in UTC.|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |ISO formatted date|
+|**Units or options**    | -- |
+|**Example**             |2016-03-11|
+
+### end_date
+|attributeID              |<div align="right">end_date <img width=200/> <code>Required</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |End date of data collection at the installation in UTC. If installation is still in operation, use a future date (e.g. 2999-01-01).|
+|**Required**            |True|
+|**Type**                |String|
+|**Style**               |ISO formatted date|
+|**Units or options**    | -- |
+|**Example**             |2016-03-26|
+
+
+### funding_agency
+|attributeID              |<div align="right">funding_agency <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Name(s) of agency that funded the experiment.|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |U.S. DOE Geothermal Technology Office|
+
+### project_number
+|attributeID              |<div align="right">project_number <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Funding project number. Should be supplied if a number has been assigned by funding agency(s).|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |DOE CN: EE0006760|
+
+### digital_object_identifier
+|attributeID              |<div align="right">digital_object_identifier <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Digital Object Identifier that uniquely identifies the metadata, this identifier may only become available following archiving.|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |URL|
+|**Units or options**    | -- |
+|**Example**             |https://doi.org/10.15121/1778858|
+
+### purpose_of_data_collection
+|attributeID              |<div align="right">purpose_of_data_collection <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Brief explanation of the purpose of experiment.|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             |Monitor geothermal field|
+
+### comment
+|attributeID              |<div align="right">comment <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Additional comments.|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |Free form text|
+|**Units or options**    | -- |
+|**Example**             | -- |
