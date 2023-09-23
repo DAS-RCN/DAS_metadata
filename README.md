@@ -9,6 +9,7 @@ Here, DAS-RCN Data Management Working Group presents ***DAS metadata standard***
 
 ## Getting started  
 
+0. Optional to use our reader-friendly website [url](https://das-metadata.gitbook.io/das-metadata-standard-by-das-rcn/)
 1. Read the DAS metadata [terms and definitions](./term/README.md)
 2. Download [templates](./template/README.md) for the standardized attributes
 3. Explore our [example gallery](./example/README.md) for DAS metadata in different deployment scenarios.
