@@ -1,6 +1,6 @@
 # Table of contents
 
-* [DAS-RCN: Distributed Acoustic Sensing (DAS) metadata standard v1.1.0](README.md)
+* [DAS-RCN: DAS metadata standard homepage](README.md)
 * [Metadata schema](./term/README.md)
   * [Overview metadata](./term/overview.md)
   * [Interrogator metadata](./term/interrogator.md)
