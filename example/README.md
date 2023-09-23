@@ -21,4 +21,4 @@ A hypothetical scenario which may involve multiple acquisitions is during instru
 While most commercial interrogators employ a simple one-to-one setup (i.e., one interrogator to one fiber), interrogators may use an optical switch to utilize two fibers from two different cables within the same acquisition. In this case, the cable and fiber information are recorded under distinct Fiber metadata blocks nested within their respective Cable metadata blocks. The interrogator information will contain a single Interrogator metadata with one Acquisition metadata but several Channel Group metadata blocks with unique *channel_group_id*s and *fiber_id*s to identify the fiber used.
 
 ![Abridged version of metadata models for six different scenarios, focusing on the skeletal hierarchical structure and key attributes important in each scenario.](../figures/fig_metadata_schema_example_cases.png)
-Caption: Abridged version of metadata models for six different scenarios, focusing on the skeletal hierarchical structure and key attributes important in each scenario.
+
