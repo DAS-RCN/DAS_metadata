@@ -1,4 +1,4 @@
-# DAS-RCN Reporting Format for Distributed Acoustic Sensing (DAS) metadata v1.1.0
+## DAS-RCN Reporting Format for Distributed Acoustic Sensing (DAS) metadata v1.1.0
 
 Distributed Acoustic Sensing (DAS) is a transformative technology and its applications in geosciences and engineering are numerous and growing. To move this frontier technology forward, it is important to compare and integrate measurements across deployments and make the data reusable by others following Findable, Accessible, Interoperable, and Reusable (FAIR) data principles (Wilkinson et al., 2016). Long-standing metadata standards such as the Standard for the Exchange of Earthquake Data (SEED) (Ahern et al., 2009) developed for seismic data do not adapt well for DAS due to fundamental differences in sensor and data acquisition parameters. Existing formats for seismic metadata developed in the early days of digital seismic recording, such as dataless SEED and SEG-Y headers, cannot accommodate all the acquisition parameters, cable environment, and channel location information needed for proper characterization.
 
