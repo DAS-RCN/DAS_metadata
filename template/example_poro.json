@@ -411,6 +411,7 @@
                             "fiber_mode": "single-mode",
                             "fiber_refraction_index": 1.4681,
                             "fiber_winding_angle": null,
+                            "fiber_winding_angle_unit": degree,
                             "fiber_start_location": -80.66,
                             "fiber_start_location_unit": "meter",
                             "fiber_end_location": 9164.831,
