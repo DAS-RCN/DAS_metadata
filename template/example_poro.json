@@ -429,6 +429,7 @@
                             "fiber_mode": "Mode of fiber.",
                             "fiber_refraction_index": "Refractive index of the fiber (unitless). Typical value for single mode fiber is 1.4681.",
                             "fiber_winding_angle": "If helical, this is the winding angle relative to the center of the cable.",
+                            "fiber_winding_angle_unit": "Unit for fiber winding angle.",
                             "fiber_start_location": "The start distance along the fiber with respect to the interrogator, referred to as StartLocus in PRODML.",
                             "fiber_start_location_unit": "Unit of fiber start location.",
                             "fiber_end_location": "The end location or distance along the fiber with respect to the interrogator.",
