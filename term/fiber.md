@@ -10,6 +10,7 @@
 
 * Optional fields\
 [fiber_winding_angle](#fiber_winding_angle) |
+[fiber_winding_angle_unit](#fiber_winding_angle_unit) |
 [fiber_start_location](#fiber_start_location) |
 [fiber_start_location_unit](#fiber_start_location_unit) |
 [fiber_end_location](#fiber_end_location) |
@@ -79,6 +80,16 @@
 |**Type**                |Float|
 |**Style**               |na|
 |**Units or options**    | - |
+|**Example**             | - |
+
+### fiber_winding_angle_unit
+|attributeID              |<div align="right">fiber_winding_angle_unit <img width=200/> <code>Optional</code> </div>|
+|:------------------------|:----------------------------------------------------|
+|**Description**         |Unit of fibre winding angle|
+|**Required**            |False|
+|**Type**                |String|
+|**Style**               |Controlled vocabulary|
+|**Units or options**    | degrees |
 |**Example**             | - |
 
 ### fiber_start_location
