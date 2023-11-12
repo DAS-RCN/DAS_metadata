@@ -85,7 +85,7 @@
 ### fiber_winding_angle_unit
 |attributeID              |<div align="right">fiber_winding_angle_unit <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Description**         |Unit of fibre winding angle|
+|**Description**         |Unit of fiber winding angle|
 |**Required**            |False|
 |**Type**                |String|
 |**Style**               |Controlled vocabulary|
