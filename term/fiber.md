@@ -89,7 +89,7 @@
 |**Required**            |False|
 |**Type**                |String|
 |**Style**               |Controlled vocabulary|
-|**Units or options**    | degrees |
+|**Units or options**    | degree |
 |**Example**             | - |
 
 ### fiber_start_location
