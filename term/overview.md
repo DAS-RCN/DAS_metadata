@@ -38,7 +38,7 @@
 ### location
 |attributeID              |<div align="right">location <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Description**         |Geographic location of the installation. |
+|**Description**         |Name of the geographic location of the installation. |
 |**Required**            |True|
 |**Type**                |String|
 |**Style**               |Free form text|
