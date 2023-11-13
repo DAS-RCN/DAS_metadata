@@ -271,7 +271,7 @@
 ### uncertainty_in_strike
 |attributeID              |<div align="right">uncertainty_in_strike <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Description**         |Uncertainty in the strike in degrees.|
+|**Description**         |Uncertainty in the strike.|
 |**Required**            |False|
 |**Type**                |Float|
 |**Style**               |na|
@@ -301,7 +301,7 @@
 ### uncertainty_in_dip
 |attributeID              |<div align="right">uncertainty_in_dip <img width=200/> <code>Optional</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Description**         |Uncertainty in the dip in degrees.|
+|**Description**         |Uncertainty in the dip.|
 |**Required**            |False|
 |**Type**                |Float|
 |**Style**               |na|
