@@ -20,7 +20,7 @@
         },
         "AttributeDefinitions": {
             "network_code": "Unique network name for the installation with a maximum of 8 alphanumeric characters with no special characters (e.g., underscores, period, dash).",
-            "location": "Geographic location of the installation.",
+            "location": "Name of the geographic location of the installation.",
             "country": "Country where the installation is located. Use ISO 3166-1 alpha-3 three-letter country code.",
             "principle_investigator_name": "Name of principal investigator (last name, first name) for the installation.",
             "principle_investigator_email": "Email address of principal investigator.",
