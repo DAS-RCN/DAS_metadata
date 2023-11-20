@@ -108,7 +108,7 @@
                             "acquisition_end_time": "End time of this data acquisition in UTC. if data acquisition is still in operation, use a date in the future (e.g. 2999-01-01T00:00:00.000Z).",
                             "acquisition_sample_rate": "The rate at which the interrogator provides output data.",
                             "acquisition_sample_rate_unit": "Unit of acquisition sample rate.",
-                            "gauge_length": "The length along the fiber between a pair of pulses, determined at experiment setup and used during acquisition.",
+                            "gauge_length": "The averaging length along the fiber for a measurement, determined at experiment setup and used during acquisition.",
                             "gauge_length_unit": "Unit of gauge length.",
                             "unit_of_measure": "Unit of measure of archived data set. This may be the same unit as the Interrogator Unit of Measure if the data are raw.",
                             "number_of_channels": "The total number of sampling points along the fiber as output from the interrogator, referred to as NumberOfLoci in PRODML.",
