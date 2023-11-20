@@ -89,7 +89,7 @@
 ### gauge_length
 |attributeID              |<div align="right">gauge_length <img width=200/> <code>Required</code> </div>|
 |:------------------------|:----------------------------------------------------|
-|**Description**         | The length along the fiber between a pair of pulses, determined at experiment setup and used during acquisition. |
+|**Description**         | The averaging length along the fiber for a measurement, determined at experiment setup and used during acquisition. |
 |**Required**            | True|
 |**Type**                | Float |
 |**Style**               | na |
