@@ -46,6 +46,8 @@ KMH and RWP were supported by the Source Physics Experiment. The Source Physics 
 
 ## Recommended citation  
 
-A manuscript is currently being prepared for submission. At the meantime, the draft can be requested directly from Voon (voonhui.lai@anu.edu.au). 
+Voon Hui Lai, Kathleen M. Hodgkinson, Robert W. Porritt, Robert Mellors; Toward a Metadata Standard for Distributed Acoustic Sensing (DAS) Data Collection. Seismological Research Letters 2024;; 95 (3): 1986–1999. doi: https://doi.org/10.1785/0220230325
+
+If you have trouble accessing the manuscript, please reach out to Voon (voonhui.lai@anu.edu.au). 
 
 
