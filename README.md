@@ -4,6 +4,7 @@ Distributed Acoustic Sensing (DAS) is a transformative technology and its applic
 
 Here, DAS-RCN Data Management Working Group presents ***DAS metadata standard*** (v1.1.0), specifically for DAS research community to facilitate the integration of DAS measurements across experiments and increase reusability. This standard V1.1.0 (improved from V1.0.0) fully describes the five key components of a DAS experiment: interrogator, data acquisition, channels, cable, and fiber. The intent is that this metadata standard should be independent of the specific implementation and the emphasis is on the content and structure (i.e., schema). This also implies that the metadata is independent of the time-series data. 
 
+**⚠️ (Feb 24, 2025) This repository has been archived and is no longer maintained. Please visit the [FDSN DAS metadata github respository](https://github.com/FDSN/DAS-metadata) for updates and issue tracking. ⚠️**
 
 --- 
 
@@ -28,13 +29,19 @@ Submit a new issue [here](https://github.com/vhlai-seis/DAS_metadata/blob/main/c
 ---
 
 ## Version history 
+
+### February 24, 2025
+This repository has been archived and is no longer actively maintained. All future updates, developments, and issue tracking will take place in the FDSN repository: [https://github.com/FDSN/DAS-metadata](https://github.com/FDSN/DAS-metadata).
+
+Please direct any new issues or contributions there. Thank you for your support.
+
 ### v1.1.0 (September 21, 2023)
 
 This updated DAS Metadata Schema introduces significant changes, including the creation of distinct child branches for Cable (and Fiber) and for Interrogator (including Acquisition, Channel Group, and Channel).
 Subsequent modifications to the GitHub repository consist of minor editorial edits with no major structural or functional changes.
 
 Citation: 
-- [journal article] Voon Hui Lai, Kathleen M. Hodgkinson, Robert W. Porritt, Robert Mellors; Toward a Metadata Standard for Distributed Acoustic Sensing (DAS) Data Collection. Seismological Research Letters 2024;; 95 (3): 1986–1999. doi: https://doi.org/10.1785/0220230325 
+- [journal article] Voon-Hui Lai, Kathleen M. Hodgkinson, Robert W. Porritt, Robert Mellors; Toward a Metadata Standard for Distributed Acoustic Sensing (DAS) Data Collection. Seismological Research Letters 2024;; 95 (3): 1986–1999. doi: https://doi.org/10.1785/0220230325 
 
 ### v1.0.0 (August 24, 2022)
 
@@ -62,8 +69,7 @@ KMH and RWP were supported by the Source Physics Experiment. The Source Physics 
 
 ## Recommended citation  
 
-Voon Hui Lai, Kathleen M. Hodgkinson, Robert W. Porritt, Robert Mellors; Toward a Metadata Standard for Distributed Acoustic Sensing (DAS) Data Collection. Seismological Research Letters 2024;; 95 (3): 1986–1999. doi: https://doi.org/10.1785/0220230325
+Voon-Hui Lai, Kathleen M. Hodgkinson, Robert W. Porritt, Robert Mellors; Toward a Metadata Standard for Distributed Acoustic Sensing (DAS) Data Collection. Seismological Research Letters 2024;; 95 (3): 1986–1999. doi: https://doi.org/10.1785/0220230325
 
-If you have trouble accessing the manuscript, please reach out to Voon (voonhui.lai@anu.edu.au). 
 
 
